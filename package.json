@@ -1,0 +1,16 @@
+{
+	"private": true,
+	"name": "example",
+	"description": "Testcase of the postMessage issue in webpack-dev-server",
+	"engines": {
+		"node": ">=7.4.0"
+	},
+	"scripts": {
+		"start": "webpack-dev-server --port 8000 --content-base www/ --env.debug"
+	},
+	"dependencies": {
+		"html-webpack-plugin": "^2.26.0",
+		"webpack": "^2.2.0-rc.7",
+		"webpack-dev-server": "^2.2.0-rc.0"
+	}
+}
